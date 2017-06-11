@@ -15,7 +15,7 @@ curl_close($ch);
 $img1 = base64_encode($img);
 $img2 = base64_decode($img1);
 file_put_contents('./img.png', $img2);
-echo "<input type=\"hidden\" id=\"cookie\" value=\"".$cookie_jar."\">";
+echo "<input type=\"hidden\" id=\"cookie\" value=\"".$cookie_jar."\">";//发送cookie文件地址
 ?>
 <!DOCTYPE html>
 <html>
